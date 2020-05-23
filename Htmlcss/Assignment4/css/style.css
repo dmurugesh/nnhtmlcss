@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: whitesmoke;
+    padding: 10px;
+}
+.table {
+    text-align: left;
+}
+h1 {
+    text-align: center;
+    border: 2px solid red;
+    padding: 5px;
+    background-color: khaki;
+}
+
+
+.input{
+    display: inline-block;
+    width: 140px;
+    height: 31px;
+    margin-right: 1%;
+    border: 2px solid grey;
+    padding: 0.3%;
+}
+.border{
+    padding: 0.4%;
+    position: relative;
+    right: -2px;
+} 
+.border#qual{
+    right: -6px;
+}
+.submit {
+    display: inline-block;
+    width: 140px;
+    height: 31px;
+    border: 2px solid green;
+    padding: 0.3%;
+    background-color: green;
+    color: white;
+    margin: 2px;
+}
+.reset {
+    border: 2px solid grey;
+    padding: 0.3%;
+}
+.name-div{
+    position: relative;
+    text-align: center;
+    left: -1px;
+}
+.gender {
+    position: relative;
+    text-align: center;
+    left: -14.5px;
+}
+.age {
+    position: relative;
+    text-align: center;
+    left: -1.5px;
+}
+.samplesite {
+    position: relative;
+    text-align: center;
+    left: -25.5px;
+}
+.qualification {
+    position: relative;
+    text-align: center;
+    left: -44px;
+}
+.email {
+    position: relative;
+    text-align: center;
+    left: -1.5px;
+}
+.address {
+    position: relative;
+    text-align: center;
+    left: 12px;
+}
+
+.addr {
+    position: relative;
+    bottom: 143px;
+    right: -1.5px;
+}
+.sub {
+    position: relative;
+    text-align: center;
+}
+.align{
+    display: inline-block;
+    height:200px;
+    width :250px;
+}
+.test-box1{
+    background: rgb(231, 228, 50);
+    position: relative;
+    top: 18px;
+}
+
+.test-box2 {
+    background: grey;
+    margin: 1px;
+    position: relative;
+    top: 18px; 
+}
+.test-box3 {
+    background: rgb(175, 116, 7);
+    margin: 1px;
+    position: relative;
+    bottom: 53px;
+}
+.try {
+    width: 100%;
+    text-align: center;
+}
+.primary {
+    border: 1px solid gray;
+    background: whitesmoke;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+    top: 20px;
+}
+.color {
+    text-align: left;
+    position: relative;
+    top: 40px;
+    left: 60px;
+}
+.box-red {
+    display: inline-block;
+    border: 1px solid black;
+    width: 100px;
+    margin:1%;
+    padding: 0.9%;
+    background-color: red;
+}
+.box-green {
+    display: inline-block;
+    border: 1px solid black;
+    width: 100px;
+    margin: 1%;
+    padding: 0.9%;
+    background-color: green;
+}
+.box-blue {
+    display: inline-block;
+    border: 1px solid black;
+    width: 100px;
+    margin: 1%;
+    padding: 0.9%;
+    background-color: blue;
+}
+
+@media screen and (max-width: 800px) {
+    .test-box3 {
+        background: rgb(175, 116, 7);
+        position: relative;
+        top: 18px;
+    }
+}
+@media screen and (max-width: 383px) {
+   
+    .input{
+        font-size: 10px;
+        width: 100px;
+        height: 22px;
+        margin-right: 1%;
+        border: 2px solid grey;
+        padding: 0.3%;
+    }
+    .border{
+        position: relative;
+        top: 3px;
+        right: -2px;
+    } 
+    .gender {
+        position: relative;
+        text-align: center;
+        left: -11.5px;
+    }
+    .genderop{
+        position: relative;
+        text-align: center;
+        left: -10px;
+        top: 5px;
+    }
+}
+@media screen and (max-width: 345px) {
+   .table{
+       text-align: left;
+   }
+    .input{
+        display: inline-block;
+        font-size: 9px;
+        width: 90px;
+        height: 22px;
+        margin-right: 1%;
+        border: 2px solid grey;
+        padding: 0.3%;
+    }
+    .border{
+        position: relative;
+        top: 5px;
+        right: -2px;
+    } 
+    .gender {
+        position: relative;
+        text-align: left;
+        left: -0.5px;
+    }
+    .genderop{
+        position: relative;
+        text-align: left;
+        left: 4px;
+        top: 5px;
+    }
+    .name-div{
+        position: relative;
+        text-align: left; 
+    }
+    .age {
+        position: relative;
+        text-align: left;
+        left: -1.5px;
+    }
+    .samplesite {
+        position: relative;
+        text-align: left;
+        left: -2px;
+    }
+    .qualification {
+        position: relative;
+        text-align: left;
+        left: -1px;
+    }
+    .email {
+        position: relative;
+        text-align: left;
+        left: -0.5px;
+    }
+    .address {
+        position: relative;
+        text-align: left;
+        left: -2px;
+    }
+    
+    .addr {
+        position: relative;
+        bottom: 143px;
+        right: -1.5px;
+    }
+    .sub {
+        position: relative;
+        text-align: center;
+    }
+}
+
+/* @media screen and (max-width: 382px) {
+   
+    .input{
+        display: inline-block;
+        width: 140px;
+        height: 31px;
+        margin-right: 1%;
+        border: 2px solid grey;
+        padding: 0.3%;
+        font-size: auto;
+    }
+    .border{
+        padding: 0.4%;
+        position: relative;
+        right: -2px;
+    } 
+    .border#qual{
+        right: -6px;
+    }
+    .addr {
+        position: relative;
+        bottom: 0px;
+        right: 100px;
+    }
+    .addre{
+        position: relative;
+        right: -75px;
+        top: -30px;
+    }
+} */
