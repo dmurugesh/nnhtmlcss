@@ -1,0 +1,179 @@
+h1 {
+    border: 1px solid rgb(230, 226, 47);
+    background-color: rgb(224, 224, 99);
+    text-align: center;
+    padding: 10px;
+    margin-left: 650px;
+    margin-right: 570px;
+}
+div.content {
+    text-align: left;
+    margin-left: 800px;
+    margin-right: 650px;
+}
+.name {
+    border: 1.5px solid grey;
+    padding: 9px;
+}
+.name#name {
+    margin-left: 33px;
+    padding: 10px;
+    text-align: left;
+}
+.gender {
+    display: inline;
+    border: 1.5px solid grey;
+    padding: 9px;
+}
+.gender#gender {
+    margin-left: 37px;
+    padding: 10px;
+    padding-left: 5px;
+    padding-right: 49px;
+}
+.age {
+    display: inline;
+    border: 1.5px solid grey;
+    padding: 9px;
+}
+.age#age {
+    margin-left: 33px;
+    padding: 10px;
+    padding-left: 0px;
+    padding-right: 20px;
+    text-align: left;
+}
+.website {
+    display: inline;
+   
+    padding: 9px;
+}
+.website#web1 {
+    border: 1.5px solid grey;
+}
+.website#website {
+    margin-left: 33px;
+    padding: 10px;
+    padding-left: 5px;
+    padding-right: 65px;
+}
+.qual {
+    display: inline;
+    border: 1.5px solid grey;
+    padding: 9px;
+}
+.qual#qual {
+    margin-left: 35px;
+    padding: 9px;
+    padding-left: 10px;
+    padding-right: 70px;
+}
+.email  {
+    display: inline;
+    border: 1.5px solid grey;
+    padding: 9px;
+}
+.email#email {
+    margin-left: 33px;
+    padding: 10px;
+    padding-right: 15px;
+    text-align: left;
+}
+div.add {
+     display: inline;
+     position: relative;
+     top: 28px;
+ }
+ .address   {
+    display: inline;
+    border: 1.5px solid grey;
+    padding: 9px;
+}
+.address#address {
+    margin-left: 145px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 45px;
+    text-align: center;
+}
+.submit   {
+    display: inline;
+    background-color: green;
+    color: white;
+    font-style: oblique;
+    border: 1.5px solid grey;
+    padding: 9px;
+    margin-left: 145px;
+}
+.reset   {
+    display: inline;
+    background-color: green;
+    color: white;
+    font-style: oblique;
+    border: 1.5px solid grey;
+    padding: 9px;
+    margin-left: 10px;
+}
+div.css {
+    display: inline-block;
+    border: 2px solid rgb(178, 221, 76);
+    background-color: rgb(194, 233, 103);
+    color: blue;
+    padding: 10px;
+    margin-left: 650px;
+}
+div.java {
+    display: inline-block;
+    border: 2px solid rgb(75, 75, 75);
+    background-color: grey;
+    color: black;
+    padding: 10px;
+    padding-top: 7px;
+    padding-bottom: 25px;
+    margin: 15px;
+    text-align: justifysss;
+}
+div.radio {
+    display: inline-block;
+    border: 2px solid black;
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: rgb(243, 243, 96);
+}
+.Primary {
+    border: 2px solid black;
+    background-color: white; 
+    text-align: center;
+    margin-top: 33px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+.align {
+    margin-bottom: 10px;
+}
+.red {
+    border: 1px solid red;
+    padding-left : 17px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: red;
+}
+.green {
+    border: 1px solid green;
+    padding-left : 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: green;
+}
+.blue {
+    border: 1px solid blue;
+    padding-left : 13px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: blue;
+}
