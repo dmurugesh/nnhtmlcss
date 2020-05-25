@@ -208,10 +208,12 @@ CSS Flexbox
 
     eg: align-items: center;
 
-20. change the order of th elements in a flex box using order.
-    eg.  .one{order: 0;}  // if we change the 0 to 1, this one goes to last.
-	 .two{order: 0;}
-	 .three{order: 0;}
+20. We can change the order of th elements in a flex box using order property.
+    order property accepts postive aswell as negative values
+    order goes from negative to postive
+    eg.  .one{order: value;} 
+	 .two{order: value;}
+	 .three{order: value;}
 
 
 CSS Animations
