@@ -58,7 +58,7 @@
 - name attribute is important when using radio type,becouse of it helps group radio inputs
 
 
-## video 4 tutorials - css basics
+## CSS basics
 ********************************
 - how to use css
 - link -a link between a document and an external resource
@@ -241,17 +241,18 @@
 	 .three{order: 0;}
 
 
-##CSS Animations
+
+## CSS Animations
 **********************************
 
--Q: How to add backgorund images in CSS ?
-    -background-image: url(../img/hero1.jpg);
+Q: How to add backgorund images in CSS ?
+   background-image: url(../img/hero1.jpg);
 
 Q: How to add color to background image in CSS?
    background-image: linear-gradient(mention direction how color flow should happen,
-     <color>,
-     <color>,
-      url(../img/hero1.jpg);
+   <color>,
+   <color>,
+   url(../img/hero1.jpg);
 
 Q: How to crop image in css?
    backgrounf-postion: <value>; ( if top it crops with top)
