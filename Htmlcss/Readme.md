@@ -1,6 +1,6 @@
 # HTML & CSS Crash Course Tutorial
 
-## HTML - Introduction
+## HTML & CSS - Introduction
 *********************************
 - what is html(hypertext markup language)
     - HTML provides the basic structure of sites.
@@ -245,40 +245,37 @@
 ## CSS Animations
 **********************************
 
-Q: How to add backgorund images in CSS ?
-   background-image: url(../img/hero1.jpg);
+- Q: How to add backgorund images in CSS ?
+   - background-image: url(../img/hero1.jpg);
 
-Q: How to add color to background image in CSS?
-   background-image: linear-gradient(mention direction how color flow should happen,
-   <color>,
-   <color>,
-   url(../img/hero1.jpg);
+- Q: How to add color to background image in CSS?
+   - background-image: linear-gradient(mention direction how color flow should happen,
+   - <color>,
+   - <color>,
+   - url(../img/hero1.jpg);
 
-Q: How to crop image in css?
-   backgrounf-postion: <value>; ( if top it crops with top)
+- Q: How to crop image in css?
+   - backgrounf-postion: <value>; ( if top it crops with top)
 
-Q: how to crop images in css?
-   clip-path: polygon(x y, x y, x y, x y);
-   x-axis cordinate value 
-   y-axis cordinate value
+- Q: how to crop images in css?
+   - clip-path: polygon(x y, x y, x y, x y);
+   - x-axis cordinate value 
+   - y-axis cordinate value
 
-Q: how to make a text in center permantely? 
-   use postion absolute and add value for tag : top & left,
-   transform : translate(x , y) - used to move starting postion of the text. (x & y are axis) 
+- Q: how to make a text in center permantely? 
+   - use postion absolute and add value for tag : top & left,
+   - transform : translate(x , y) - used to move starting postion of the text. (x & y are axis) 
 
-Q: how to add animations using css?
-   using keyframes method 
-   tage "@keyframes <name>" {
-   0% (where aninamtion begins) {
-   opacity: __px;
-   transfor: translat/rotate/something else
-   }
-   <anyValue b/w 0% to 100%> {
-   }
-   100% (where anumations ends) {
-    opacity: __px;
-   transfor: translat/rotate/something else
-   } 
+- Q: how to add animations using css?
+   - using keyframes method 
+   - tage "@keyframes <name>" {
+   - 0% (where aninamtion begins) {
+   - opacity: __px;
+   - transfor: translat/rotate/something else }
+   - <anyValue b/w 0% to 100%> { }
+   - 100% (where anumations ends) {
+   - opacity: __px;
+   - transfor: translat/rotate/something else } 
 
 Q: Animation can be written shorter
 	animation-name:<name> and place it in div/class where animation should happen
