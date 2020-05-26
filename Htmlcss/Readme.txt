@@ -1,4 +1,4 @@
-HTML & CSS Crash Course Tutorial
+# HTML & CSS Notes #
 
 video tutorial 1 - Introduction
 
