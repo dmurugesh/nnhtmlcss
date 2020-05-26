@@ -1,160 +1,187 @@
-# HTML & CSS Notes
+# HTML & CSS Crash Course Tutorial
 
-video tutorial 1 - Introduction
-
-* what is html(hypertext markup language). 
-   HTML provides the basic structure of sites.
-* what is CSS (cascading style sheet)
-   CSS is used to control presentation, formatting, and layout.
-   CSS used to make web pages with good look.feel look better
-* basic tags
-   !DOCTYPE
-   HTML
-   HEAD
-   BODY
-* how to inspect an element
-
-video tutorial 2 - html basics
-
-Tags
-1. <strong> tag - used to represent the important text of a document on the browser.
-2. <em> - emphasized text
-3. <small> - emphasized
-4. <h1,h2....,h6> - heading tags
-5. <ul> - unordered list(dots,bullets,circle,sqare, etc..)
-6. <ol> - ordered list(numbers,Alphabets,roman letters, etc..)
-7. <div> - division or a section in an HTML document.(divide pages into sections)
-8. <hr> - drow a horizontal line
-9. <br> - breaking tag for break to next line
-10. <img> - used to add images to the document.(main attributes src,alt)
-11. <span> - an inline container used to mark up a part of a text
-12  <blockquote> - specifies a section that is quoted from another source.
-14. How to add comments => !-- some comments --
+## HTML - Introduction
+*********************************
+- what is html(hypertext markup language)
+    - HTML provides the basic structure of sites.
+- what is css (cascading style sheet)
+    - CSS is used to control presentation, formatting, and layout.
+- css used to make web pages with good look.feel look better
+- basic tags 
+    - !DOCTYPE
+    - HTML
+    - HEAD
+    - BODY
+- how to inspect an element
 
 
-video 3 tutorial - html forms
+## HTML basic tags 
+********************************
+- Tags
+    - strong tag  - used to represent the important text of a document on the browser.
+    - em  - emphasized text
+    - small  -  emphasized
+    - h1,h2....,h6 - heading tags
+    - ul - unordered list(dots,bullets,circle,sqare, etc..)
+    - ol - ordered list(numbers,Alphabets,roman letters, etc..)
+    - div -  division or a section in an HTML document.(divide pages into sections)
+    - hr - drow a horizontal line
+    - br - breaking tag for break to next line
+    - img - used to add images to the document.(main attributes src,alt)
+    - span - an inline container used to mark up a part of a text
+    - blockquote - specifies a section that is quoted from another source.
+- define styles
+- comments - !-- some comments --
 
-Tags
-1.<form> - used to create an HTML form for user input
-2.<label> -display instriction texts or texts
-3.<attributes>- name,id,for etc..
-   for attributes helps to findout which element is represented by specific label
-4. <input> -an input field where the user can enter data
-5. main attributes- types,name etc..
-   type attribute -(values - radio,text,password,email,etc ..)
-   name attribute is important when using radio type,becouse of it helps group radio inputs
+## HTML5 semantics
+************************************
 
-video 4 tutorials - css basics
-
-1. how to use css
-   link -a link between a document and an external resource
-2. usage -link rel="stylesheet" href="style.css" /
-3. rel - specify relationship between the two documents.
-4. href - href attribute specifies the URL of the page the link goes to.
-5. units of measurements in css - px,em,%,cm,ex,in,am,pc,pt etc..
-6. text decoration - values(underline,none,line-thorugh)
-7. font family
-8. text align
-9. line height
-10.letter spacing
-11.coloumn-count
-12.for make coloums in the document
-13.border
-   border-width:--px;
-   border-color:--;
-   border-style:--;
-14.we can use them together like border:width style colour;
-15.we can specify which border we need to style like - border-bottom
-16.css comments - /* some texts */
-17.text-shadow - --px --px colour;
-18.we can pic colour in hexa codes -(##ffffff for white)
-19.inline elements - it displayed contents space
-20.span,img,strong,em etc..
-30.block level tags - it need full width space
-  .p,div,h1,h2
-  in defaut disply:block
-14.margin and padding(margin refer outer space of an element padding refer inner space)
-15.margin become collapse together and bigger value is applied.
-
-video 5 tutorials - css classes and selectors
-
-1.  classname
-2.  selector
-3.  p.error- p tags only affect error class styles
-4.  we can use mutliple classes like - p.error.name
-5.  we can select items by id -##name eg ##name{ we can style here for an element with id name}
-6.  inner selecter - div p{we can style here for p element that inside a div}
-7.  attribute selector - a[href]{we can style here for an a tag have href attribute}
-8.  text-transform - for text transforming
-9.  a[href*="google"] {we can style here for an a tag its href value include text 'google'}
-10. a[href$-"google"]{we can style here for an a tag its href value end with text 'google'}
-11. if it is .pdf then we can easly identify pdf documents
-    the cascade- top to bottom
-12. html elements inherit from parent elements
-13. inherit- this property helps to inherit properties from parents
-    eg. margin:inherit
-14. we can overwrite styles inherited from parent elemets using write its own properties to child elementss
-
-video 6 tutorial - html5 semantics
-
-1. semantic tags clearly describes its meaning to both the browser and the developer.
-2. article tag -which makeup an article
-3. main tag - for main content
-4. section tag - to make certain section
-5. aside tag - related to something else
-6. header tag - for giving heading
-7. footer tag - for giving footer
-
-video 7 tutorial - chrome dev tools
-
-1. We can delete,edit and hide elements in inpect window
-2. check and uncheck css styles using inspect window
-3. save changes using file system -> source -> filesystem -> select file folder -> made changes -> ctrl+s to save
-4. familier with inspect headings -source,inspctor,network,console etc..
-5. how to view same webpage into different devices using inspect element.
-
-video 8 tutorial - css layout & position
-
-1. position
-   values-static,relative,fixed,absolute,sticky
-   familier %,em unit measurement
-   em inherit parent attribute value and it take as 1 . (13.21)
-   eg. parent element :10px, child element:1.5 em (15px)
-2. z-index
-   z index is morethan 1 then forward this element
-   z index is lessthan 1 then backward this element
-3. padding:--px --px (usage)
-4. border-radious - helps to change border shape
-5. white-space
-6. max-width
-7. margin -auto keyword automatically adjusted spaces
-8. box-sizing
-9. line-height
-
-video 9 tutorial - psudo classes & elements
-
-1. pesudo classes
-   style elements when they are in a particular state -hover,focus,first-child,valid,
-   outline - reomove outer lines of elements
-2. All class psudo elements -11:46
-   ::after
-   ::before
-   ::first-letter
-   ::first-line
-   ::selection
-
-video 10 tutorial - intro to media queries
-
-1. responsive design
-2. media queries- tell the browser how to an element at particular viewport dimensions
-3. max-width and min-width we can set min and max width value
-4. @media screen and(max-width:1000px) means below 1000 px what styles elements have
-5. viewport meta tag- tell the browser what width the viewport sholud be
-	eg.responsive images - smaller images for mobile device
+- semantic tags clearly describes its meaning to both the browser and the developer. 
+    - article tag -which makeup an article
+    - main tag - for main content
+    - section tag - to make certain section
+    - aside tag - related to something else
+    - header tag - for giving heading
+    - footer tag - for giving footer
 
 
-CSS Flexbox
+## HTML forms
+********************************
+- Tags
+    - form - used to create an HTML form for user input
+    - label -display instriction texts or texts
+       - attributes- name,id,for etc..
+       - for attributes helps to findout which element is represented by specific label 
+    - input -an input field where the user can enter data
+        - main attributes- types,name etc..
+        - type attribute -(values - radio,text,password,email,etc ..)
+- name attribute is important when using radio type,becouse of it helps group radio inputs
 
+
+## video 4 tutorials - css basics
+********************************
+- how to use css
+- link -a link between a document and an external resource
+    - usage -link rel="stylesheet" href="style.css" /
+- rel - specify relationship between the two documents.
+- href - href attribute specifies the URL of the page the link goes to.
+- units of measurements in css - px,em,%,cm,ex,in,am,pc,pt etc..
+- text decoration - values(underline,none,line-thorugh)
+- font family
+- text align 
+- line height
+- letter spacing
+- coloumn-count 
+    - for make coloums in the document
+- border
+    - border-width:--px;
+    - border-color:--;
+    - border-style:--;
+    - we can use them together like border:width style colour;
+    - we can specify which border we need to style like - border-bottom
+- css comments - /* some texts */
+- text-shadow - --px --px colour;
+- we can pic colour in hexa codes -(##ffffff for white)
+- inline elements - it displayed contents space
+    - span,img,strong,em etc..
+- block level tags - it need full width space
+    - p,div,h1,h2
+    - in defaut disply:block
+- margin and padding(margin refer outer space of an element padding refer inner space)
+- margin become collapse together and bigger value is applied.
+
+
+## CSS classes and selectors
+***********************************************
+
+- classname
+- selector
+- p.error- p tags only affect error class styles
+- we can use mutliple classes like - p.error.name
+- we can select items by id -##name
+    eg ##name{ we can style here for an element with id name}
+- inner selecter - div p{we can style here for p element that inside a div}
+- attribute selector - a[href]{we can style here for an a tag have href attribute}
+- text-transform - for text transforming
+- a[href*="google"] {we can style here for an a tag its href value include text 'google'}
+- a[href$-"google"]{we can style here for an a tag its href value end with text 'google'}
+    - if it is .pdf then we can easly identify pdf documents
+- the cascade- top to bottom
+- html elements inherit from parent elements
+- inherit- this property helps to inherit properties from parents
+    - eg. margin:inherit
+- we can ovwrride styles inherited from parent elemets using write its own properties to child elementss
+
+
+## css layout & position
+******************************************
+
+- position
+    - values-static,relative,fixed,absolute,sticky
+- familier %,em unit measurement
+- em inherit parent attribute value and it take as 1 .  (13.21)
+    - eg. parent element :10px, child element:1.5 em (15px)
+- z-index
+    - z index is morethan then forward this element
+    - z index is lessthan then backward this element
+- padding:--px --px (usage)
+- border-radious - helps to change border shape
+- white-space
+- max-width
+- margin 
+    -auto keyword automatically adjusted spaces
+- box-sizing
+- line-height 
+
+
+## chrome dev tools
+*************************************
+
+- delete,edit and hide elements in inpect window
+- check and uncheck css styles using inspect window
+- save changes using file system
+    -> source
+    -> filesystem
+    -> select file folder
+    -> made changes
+    -> ctrl+s to save
+- familier with inspect headings
+    -source,inspctor,network,console etc..
+- how to view same webpage into different devices using inspect element.
+
+
+## Pesudo classes & elements
+*********************************************
+
+- psudo classes
+- style elements when they are in a particular state
+    -hover,focus,first-child,valid,
+- outline - reomove outer lines of elements
+- all class psudo elements   -11:46
+    - ::after
+    - ::before
+    - ::first-letter
+    - ::first-line
+    - ::selection
+
+## Media queries
+********************************************
+
+- responsive design
+- media queries- tell the browser how to an element at particular viewport dimensions
+    - max-width and min-width
+    - @media screen and(max-width:1000px) means below 1000 px what styles elements have
+- viewport meta tag- tell the browser what width the viewport sholud be
+    - eg. <meta name="viewport" content="width=device-width,initial-scale=1.0" >
+- responsive images - smaller images for mobile device
+
+
+## video 11 tutorial - next steps
+**********************************
+
+
+## CSS Flexbox
+**********************************
 
 1. flexbox help us in fixed heights for columns 
 2. does floats properties and clear fixes 
@@ -208,18 +235,17 @@ CSS Flexbox
 
     eg: align-items: center;
 
-20. We can change the order of th elements in a flex box using order property.
-    order property accepts postive aswell as negative values
-    order goes from negative to postive
-    eg.  .one{order: value;} 
-	 .two{order: value;}
-	 .three{order: value;}
+20. change the order of th elements in a flex box using order.
+    eg.  .one{order: 0;}  // if we change the 0 to 1, this one goes to last.
+	 .two{order: 0;}
+	 .three{order: 0;}
 
 
-CSS Animations
+##CSS Animations
+**********************************
 
-Q: How to add backgorund images in CSS ?
-   background-image: url(../img/hero1.jpg);
+-Q: How to add backgorund images in CSS ?
+    -background-image: url(../img/hero1.jpg);
 
 Q: How to add color to background image in CSS?
    background-image: linear-gradient(mention direction how color flow should happen,
@@ -261,4 +287,3 @@ Q: Animation can be written shorter
 	animation-iteration-count: <how many times animation should happen
 	in shorter 
 	animation: <name> <duration> <function>;
-
