@@ -277,11 +277,11 @@
    - opacity: __px;
    - transfor: translat/rotate/something else } 
 
-Q: Animation can be written shorter
-	animation-name:<name> and place it in div/class where animation should happen
-	other tag 
-	animation-duration: <sec>;
-	animation-delay: <deelay sec>;
-	animation-iteration-count: <how many times animation should happen
-	in shorter 
-	animation: <name> <duration> <function>;
+- Q: Animation can be written shorter
+	- animation-name:<name> and place it in div/class where animation should happen
+	- other tag 
+	- animation-duration: <sec>;
+	- animation-delay: <deelay sec>;
+	- animation-iteration-count: <how many times animation should happen
+	- in shorter 
+	- animation: <name> <duration> <function>;
