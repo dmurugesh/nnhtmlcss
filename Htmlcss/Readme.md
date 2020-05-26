@@ -2,17 +2,17 @@
 
 video tutorial 1 - Introduction
 
-1. what is html(hypertext markup language). 
+* what is html(hypertext markup language). 
    HTML provides the basic structure of sites.
-2. what is CSS (cascading style sheet)
+* what is CSS (cascading style sheet)
    CSS is used to control presentation, formatting, and layout.
    CSS used to make web pages with good look.feel look better
-3. basic tags
+* basic tags
    !DOCTYPE
    HTML
    HEAD
    BODY
-4. how to inspect an element
+* how to inspect an element
 
 video tutorial 2 - html basics
 
