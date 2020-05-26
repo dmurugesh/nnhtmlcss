@@ -1,4 +1,4 @@
-# HTML & CSS Notes #
+# HTML & CSS Notes
 
 video tutorial 1 - Introduction
 
