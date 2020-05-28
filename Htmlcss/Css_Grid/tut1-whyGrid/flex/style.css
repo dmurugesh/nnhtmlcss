@@ -1,0 +1,50 @@
+body {
+    background: #eee;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 3em;
+    text-align: center;
+}
+.contents {
+    width: 960px;
+
+    margin: 0 auto;
+}
+header {
+    display: block;
+    background: red;
+    height: 50px;
+ }
+.middle {
+  display: flex;
+}
+
+main {
+    background: yellow;
+    flex-grow: 2;
+    height: 400px;
+}
+
+.sidebar {
+    flex-grow: 1;
+}
+aside {
+    background: green;
+    flex-grow: 1;
+    height: 200px;
+}
+nav {
+    background: yellowgreen;
+    flex-grow: 1;
+    height: 200px;
+}
+footer {
+    display: block;
+    background: blueviolet;
+    height: 50px;
+}
+#middle:after{
+    content: '';
+    display: block;
+    clear: both;
+}

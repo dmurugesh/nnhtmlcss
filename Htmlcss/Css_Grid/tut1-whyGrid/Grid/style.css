@@ -1,0 +1,36 @@
+body {
+    background: #eee;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contents {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-auto-rows: minmax(150px, auto);
+    width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    grid-column: span 3;
+    background: red;
+}
+main {
+    grid-column: 2 / 4;
+			grid-row: 2 / 4;
+    background: rebeccapurple;
+}
+aside {
+    grid-column: 1 / 2;
+    background: yellow;
+}
+nav {
+    grid-column: 1 / 2;
+    background: yellowgreen;
+}
+footer {
+    grid-column: span 3;
+    background: hotpink;
+}
