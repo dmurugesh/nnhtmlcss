@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    font-family: Whitney,-apple-system, sans-serif;
+}
+.header{
+    background-color: #FFF;
+    width: 100%;
+    box-shadow:2px 2px 5px 2px rgb(228, 225, 225);  
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+
+}
+nav ul{
+    list-style: none;
+    display: flex;
+   margin-bottom: 1px;
+}
+nav ul li {
+   margin: 16px;
+   margin-bottom: 0;
+   font-size: 14px;
+   font-weight: 600;
+}
+.searchbox{
+  height: 20px;
+
+
+}
+.header-section-two {
+  margin-top: 20px;
+  position: absolute;
+  left: 130px;
+}
+.header-section-three {
+  margin-top: 10px;
+  position: absolute;
+  left: 670px;
+}
+.header-section-four {
+  margin-top: 10px;
+  position: absolute;
+  right: 6px;
+  text-align: center;
+  padding: 6px;
+}
+#men, #women, #kids, #home, #essentials, #profile{
+  padding: 0 10px;
+}
+.header #men:hover{
+  padding-bottom: 19px;
+  border-bottom: 3px solid rgb(247, 73, 43);
+}
+.header #women:hover{
+  padding-bottom: 19px;
+  border-bottom: 3px solid rgb(233, 47, 155);
+}
+.header #kids:hover{
+  padding-bottom: 19px;
+  border-bottom: 3px solid rgb(230, 130, 17);
+}
+.header #home:hover{
+  padding-bottom: 19px;
+  border-bottom: 3px solid rgb(235, 175, 12);
+}
+.header #essentials:hover{
+  padding-bottom: 19px;
+  border-bottom: 3px solid rgb(12, 226, 119);
+}
+#profile:hover{
+  padding-bottom: 6px;
+  border-bottom: 3px solid rgb(247, 73, 43);
+}
+  .search {
+    display: flex;
+    width: 300px;
+    padding: 9px 5px;
+    border: 1px solid #F5F5F5;
+    background-color: #F5F5F5;
+    border-radius: 5px;
+    margin-left: 100px;
+  }
+  .search img{
+    padding: 2px 11px;
+    
+  }
+  #searchinput{
+    background-color: #F5F5F5;
+    width: 400px;
+    border:none;
+    outline: none;
+  }
+  #searchinput:focus{
+    border: none;
+  }
+
+  .shop-caterogies{
+    margin-top: 100px;
+  }
+.shop-blocks {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-shrink: 1;
+    align-content: center;
+    margin: 1px  8vw;
+  }
+
+  
+  .shop-blocks > div {
+    background-color: #f1f1f1;   /* can be adjust */
+    flex: 0 1 15%;
+    text-align: center;
+    margin: 8px;
+  }
+  .caterories-img{
+    height: 20vw!important;
+    width: 14.9vw;
+  }
+  .headings{
+    color: #282c3f;
+    margin: 5vh  5vw 1vw 5vw;
+    font-weight: 500;
+    font-size: 2vw;
+  }
+  .shop-brands-blocks {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-shrink: 1;
+    align-content: center;
+    margin: 1px  8vw;
+  }
+  
+  .shop-brands-blocks > div {
+    background-color: #f1f1f1;
+    margin: 8px ;   /* can be adjust */
+    flex: 0 1 15%;
+    text-align: center;
+  }
+  .block-images{
+      height: 20vw!important;
+      width: 14.9vw;
+  }
+
+  @media screen and (max-width: 1350px) {
+    nav ul li {
+      margin: 16px;
+      margin-bottom: 0;
+      font-size: 13px;
+      font-weight: 600;
+   }
+   .header-section-three {
+    left: 570px;
+  }
+  }
+  @media screen and (max-width: 1282px) {
+    nav ul li {
+      margin: 5px;
+   }
+   .header-section-three {
+    left: 500px;
+  }
+  }
+  @media screen and (max-width: 1143px) {
+    nav ul li {
+      margin: 5px;
+      font-size: 10.5px;
+   }
+   .header-section-three {
+    left: 440px;
+  }
+  }
+  @media screen and (max-width: 1077px) {
+    nav ul li {
+      margin: 2px;
+      font-size: 10.5px;
+   }
+   .header-section-three {
+    left: 440px;
+  }
+  .header-section-two {
+
+    left: 80px;
+  }
+  .header-section-three {
+    left: 350px;
+  }
+  }
+  @media screen and (max-width: 1077px) {
+    .header-section-four {
+      margin-top: 10px;
+      position: absolute;
+      left: 820px;
+      text-align: center;
+      padding: 6px;
+    }
+  }
+  @media screen and (max-width: 468px) {
+    .shop-blocks {
+      margin: 1px  5vw;
+    }
+    .shop-brands-blocks {
+      margin: 1px  5vw;
+    }
+  }
+  @media screen and (max-width: 370px) {
+    .shop-blocks {
+      margin: 1px  1vw;
+    }
+    .shop-brands-blocks {
+      margin: 1px  1vw;
+    }
+  }
