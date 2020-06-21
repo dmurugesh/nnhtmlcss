@@ -1,0 +1,421 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Graphik Webfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+}
+/* Header */ 
+
+.top-header {
+    background-color: aliceblue;
+    padding: 0.1%;
+}
+
+.top-header-elements {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0.5%  6%;
+
+}
+.top-header-elements-esty{
+    color: #F1641E;
+    
+}
+.top-header-elements-esty-wordetsy{
+    font-size: 42px;
+    font-weight: 400!important;
+    position: relative;
+    bottom: 8px;
+}
+
+.top-header-search{
+    padding: 0% 1%;
+    width: 75%;
+}
+
+.top-header-elements-searchbox{
+    border: 1px solid black;
+    padding: 0.5%;
+    border-radius: 15ch;
+}
+
+.top-header-elements-searchtext{
+    width: 94%;
+    padding: 0.5%;
+    margin-left: 1%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 18px;
+}
+
+.top-header-icon{
+    font-size: 22px;
+}
+
+.top-header-elements-signin{
+    width: 7%;
+    text-align: center;
+    padding:0.3%;
+}
+
+.top-header-elements-signinword{
+    font-size: 18px;
+    padding: 1%;
+}
+
+.top-header-elements-signinword:hover{
+    border: 1px solid rgb(226, 221, 221);;
+    border-radius: 15ch;
+    background-color: rgb(226, 221, 221);;
+}
+
+.top-header-basket-icon{
+    padding-left: 10%;
+    font-size: 22px;
+    padding:30%
+}
+
+.top-header-basket-icon:hover{
+   border: 1px solid rgb(185, 185, 185);
+   border-radius: 10ch;
+   background-color: rgb(226, 221, 221);
+}
+.bottom-header{
+
+}
+
+.bottom-header-words{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: bisque;
+    padding-bottom: 0.4%;
+    padding-left: 3.5%;
+    padding-right: 8.5%;
+    justify-content: space-evenly;
+}
+/* Main Section */
+
+.main-section-head{
+    background-color: blanchedalmond;
+    padding: 2%;
+    text-align: center;
+}
+
+.main-section-head-words{
+    font-weight: 400;
+    font-size: 27px;
+}
+
+.main-section{
+    padding: 1% 5%;
+    display: flex;
+}
+
+.main-section-one{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;
+    border: 1px solid black;
+    margin-right: 2%;
+    align-items: center;
+    background-color: #D7E6F5;
+}
+
+.main-section-one-onediv{
+    width: 40%;
+    
+    text-align: center;
+}
+
+.main-section-one-twodiv{
+    width: 54%;
+}
+
+#catimg{
+    width: 110.5%;
+    height: 292px;
+    position: relative;
+    top: 2px;
+}
+
+.main-words{
+    font-size: 27px;
+    padding: 1% 7%;
+    font-size: 400!important;
+}
+
+.main-wordsone{
+    font-size: 16px; 
+    font-weight: 700!important;
+}
+
+.main-section-two{
+
+    width: 30%;
+}
+
+.main-section-twodiv{
+    border: 1px solid black;
+}
+
+#maskimg{
+    width: 100%;
+    height: 225px;
+    display: inline-block;
+}
+
+.main-section-two-onesec {
+    border: 1px solid black;
+    margin-top: 3%;
+    padding: 4% 4%;
+}
+
+.main-section-two-one{
+    background-color: #D7E6F5;
+}
+
+
+/* main tick section */
+
+.main-thick-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1% 5%;
+}
+
+.main-thick-section > div{
+    width: 23%;
+    padding: 0 5%;
+}
+
+.main-thick-section-word{
+    text-align: center!important;
+    font-size: 18px;
+}
+
+.color{
+    color: tomato;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0 1%;
+}
+
+.main-img{
+    /* width: 10%; */
+}
+
+
+
+/* Popular Section */
+.popular-section{
+    text-align: center;
+}
+.popular-section-div{
+    padding: 1% 5%;
+    display: flex;
+    text-align: left!important;
+}
+
+.popular-section-div > div {
+    width: 15%;
+    margin: 0.5%;
+}
+
+#popular-section-img{
+    width: 100%;
+    height: 55%;
+}
+
+.popular-section-divimg{
+    border: 1px solid black;
+}
+
+
+/* What is Esty  */
+
+.esty-section{
+    background-color:#FDEBD2 ;
+    text-align: center;
+    padding: 2%;
+}
+
+.esty-section-divone{
+    padding: 2%;
+}
+
+.esty-section-wordone{
+    font-family: "Guardian-EgypTT",serif;
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.esty-section-wordtwo{
+    color: inherit;
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+
+
+
+.esty-section-divlast{
+    padding: 2%;
+    margin-top: 6px;
+    
+}
+
+.esty-section-divlast-words{
+    font-size: 20px;
+    line-height: 28px;
+    font-family: "Graphik Webfont","Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+/* Subcribe-Footer */
+.footer-subcribe{
+    margin-top: 0.5%;
+}
+
+.subcribe-footer{
+    background-color: #D7E6F5;
+    text-align: center;
+    padding: 2%;
+    position: relative;
+    top:4px;
+}
+
+#subcribeimg{
+    position: relative;
+    top:8px;
+    width: 100%;
+}
+
+.subcribe-footer-butn{
+    width: 50%;
+}
+
+.subcribe-footer-buttondiv{
+    padding: 1%;
+    text-align: center;
+}
+
+.subcribe-footer-button{
+    padding: 0.2%;
+    border: 1px solid black;
+    border-radius: 13ch;
+    margin: 0 35%;
+    text-align: left!important;
+    background-color: rgb(255, 255, 255); 
+}
+
+#email{
+    width: 60%;
+    padding: 1% 1%;
+    outline: none;
+    border: none; 
+    font-size: 16.8px;
+    border-radius: 10ch;
+}
+
+.subcribe-footer-subcribe{
+    font-size: 100%;
+    padding-left: 12%;
+}
+
+.subcribe-footer-button:Focus{
+    background-color: black!important;
+}
+
+/* Top-footer */
+#footerimg{
+    width: 100%;
+    height: 60px;
+}
+
+.top-footerimg{
+   position: relative;
+   top: 4px;
+}
+
+.top-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #2F466C;
+    color: #eee;
+    padding: 1%;
+    padding-bottom: 3%;
+}
+
+#download{
+    width: 110%;
+    font-size: 15px;
+    padding: 2%;
+    border: 2px solid #eee;
+    border-radius: 10ch;
+    text-align: center;
+}
+
+.top-footer-icons{
+    width: 120%;
+    cursor: pointer;
+}
+
+.icons{
+    padding: 3%;
+    font-size: 25px;
+}
+
+.icons:hover{
+    border: 0.5px solid rgb(189, 187, 187);
+    background-color: rgba(255, 255, 255, 0.123);
+    border-radius: 50ch;
+}
+
+
+
+ /* Bottom Footer */
+
+ .bottom-footer {
+     background-color: rgb(40, 29, 139);
+     color: #eee;
+ }
+
+ .bottom-footer nav{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin: 0% 6%;
+   height: 70px;
+    align-items: center;
+}
+
+.bottom-footer ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    background-color: brown;
+}
+
+.bottom-footer ul .bottom-footer-left{
+    text-align: center!important;
+}
+.bottom-footer-left{
+    width: 70%!important;
+    font-size: 15px;
+}
+
+.bottom-footer li{
+    padding: 0.5% 2%;
+}
