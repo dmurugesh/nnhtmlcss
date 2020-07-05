@@ -182,5 +182,33 @@
 
 .learnmore{
     color: #eee;
+    font-weight: 700;
 }
 
+
+/* Footer Section */
+.footer{
+    padding: 1% 10% 1% 15% ;
+    background-color: rgb(247, 245, 245);
+}
+
+.footer-flex{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-flex-section{
+    width: 35%;
+    margin: 5px;
+    color: blue;
+}
+
+.footer-img{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-head{
+    color: red;
+    margin-bottom: 8px;
+}
