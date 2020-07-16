@@ -215,7 +215,6 @@
     font-size: 21px;
 }
 
-
 .main-section1{
     display: flex;
     padding: 1% 12%;
@@ -288,10 +287,6 @@
     border-bottom: 3px solid #d32323;
     
 }
-
-
-
-
 
 .container{
     padding: 1% 16% 1% 12%;
@@ -399,20 +394,6 @@
     bottom: 17px;
     font-size: 14px;
 }
-
-
-.lowres{
-    display: none;
-}
-
-
-
-
-
-
-
-
-
 
 .main-section4{
     padding: 1% 16% 1% 12%;
@@ -641,10 +622,6 @@
 .main-section4-flex2-boxfoot span{
     color: blue;
 }
-
-
-
-
 
 .main-section5{
     padding: 1% 16% 1% 12%;
@@ -977,6 +954,11 @@
     margin-bottom: 8px;
 }
 
+.lowres, .lowmain-section1, .lowmain-section2, .lowmain-section3, .lowmain-section4, .lowmain-section5, .lowmain-footer{
+    display: none;
+}
+
+
 @media screen and (max-width: 568px) {
     .footer, .top-head, .top-header-learnmore, .main-section1-tophead, .main-section2, .main-section4, .main-section5, .main-section7, .main-section8 {
         display: none;
@@ -984,6 +966,7 @@
 
     .lowres {
         display: flex;
+        margin-bottom: 0px;
     }
 
     .lowres-header{
@@ -1014,6 +997,15 @@
         margin-right: 5px;
     }
 
+    .lowmain{
+        background-color: #f7f4f4;
+        margin-top: 0px;
+
+    }
+    .lowmain-section1{
+        background-color: #fff;
+    }
+
     .lowmain-section1-flex1{
         display: flex;
         flex-direction: row;
@@ -1023,9 +1015,195 @@
     .lowmain-section1-flex1 > div{
         width: 30%;
         text-align: center;
+        padding-bottom: 15px;
     }
 
     #low-oneimg{
         width: 40px;
+    }
+
+    .lowmain-section2{
+        margin-top: 60px;
+        background-color: #fff;
+        padding-left: 10px;
+    }
+
+    .lowmain-section2-flex{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .lowmain-section2-flex > div{
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .qqw{
+        font-size: 12px;
+    }
+
+    .lowmain-section2-head{
+        font-size: 19px;
+        padding-top: 10px;
+    }
+
+    .imge{
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    .imge:hover{
+        text-decoration: underline;
+        color: blue;
+    }
+
+    .lowmain-section3{
+        margin-top: 25px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .lowmain-section3-head{
+        margin-top: 5px;
+        width: 100%;
+        background-color: blue;
+        color: #fff;
+        height: 45px;
+        text-align: center;
+        border: none;
+        border-radius: 5px;
+        font-size: 19px;
+    }
+
+    .lowmain-section3-headword{
+        padding-top: 25px;
+        font-size: 22px;
+        padding-bottom: 5px;
+    }
+
+    .lowmain-section4{
+        background-color: #FFF;
+        cursor: pointer;
+    }
+
+    .lowmain-section4-flex{
+        display: flex;
+        padding: 10px 10px;
+        border-top: 1px solid #e6e6e6;
+        border-bottom: 1px solid #e6e6e6;
+
+    }
+
+    #imc{
+        width: 65px;
+        cursor: pointer;
+    }
+
+    .lowmain-section4-flex2{
+        margin-left: 10px;
+    }
+
+    #sta{
+        height: 20px;
+    }
+
+    .words-2 {
+        padding-top: 10px;
+        color: blue;
+        font-weight: 700;
+        font-size: 15px;
+    }
+
+    .fi{
+        position: relative;
+        bottom: 4px;
+        padding-left: 10px;
+        color: #494848;
+        font-size: 13px;
+    }
+
+    .words-3 {
+        font-size: 15px;
+    }
+
+    .words-4 {
+        color: blue;
+        font-size: 13px;
+    }
+
+    .lowmain-section4-flex2:hover{
+        text-decoration: underline;
+    }
+
+    .lowmain-section5{
+        padding: 20px;
+        border-bottom: 1px solid #afabab;
+        margin: 0 10px;
+    }
+
+    .lowmain-section5-but{
+        width: 100%;
+        font-size: 15px;
+        padding: 7px;
+        font-weight: 700;
+        color: #4b4949;
+        outline: none;
+        border: 0.5 solid #e6e6e6;
+    }
+
+    .lowmain-footer{
+        margin: 10px;
+        padding-top: 15px;
+    }
+
+    .lowmain-footer1{
+        display: flex;
+        justify-content: space-evenly;
+        font-weight: 700;
+        font-size: 17px;
+    }
+    
+    .lowmain-footer2{
+        display: flex;
+        justify-content: space-evenly;
+        color: blue;
+        margin: 10px;
+        padding-left: 20px;
+        font-size: 17px;
+        cursor: pointer;
+    }
+
+    .us{
+        padding-left: 25px;
+    }
+
+    .lowmain-footer3{
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+        cursor: pointer;
+    }
+
+    .lowmain-footer3 > p {
+        font-size: 14px;
+        margin: 0 5px;
+        color: blue;
+    }
+    .lowmain-footer3 > p:hover {
+        text-decoration: underline;
+    }
+
+    .lowmain-footer4{
+        color: grey;
+        font-size: 14px;
+        padding-top: 10px;
+        text-align: center;
+        margin: 10px;
+        padding-bottom: 15px;
+    }
+
+    #footf{
+        width: 100%;
     }
 }
