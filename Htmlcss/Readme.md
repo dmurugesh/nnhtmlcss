@@ -164,6 +164,7 @@
     - ::first-line
     - ::selection
 
+
 ## Media queries
 ********************************************
 
@@ -239,7 +240,42 @@
     eg.  .one{order: 0;}  // if we change the 0 to 1, this one goes to last.
 	 .two{order: 0;}
 	 .three{order: 0;}
+13. flex-shrink is just the opposite of flex-grow. It determines the rate at which it gets smaller. 
+       higher the value the  more it shrinks.
+   
+       eg: flex-shrink: 1;
 
+14. flex-wrap prevents elements from going off page when a minimum width is specified
+
+    eg: flex-wrap: wrap;
+
+    "wrap-reverse" helps is reversing the flex items, "no-wrap" values available for flex-wrap
+
+15. Flex-basis - is similar to minimum width. 
+
+    eg: flex-basis: 200px;
+
+    if we apply minimum width to the boxes and shrink the window, scroll bar apperas after a point where minimum width of the screen is less than than applied min width.
+    where as if we apply flex-basis the boxes will shrink as normal and no scroll bar will appear.
+
+16. Flex-basis, flex-grow and flex-shrink can be written as one property called flex.
+    
+    eg: flex 1 0 200px; first number is flex-grow, second is flex shrink, third is flex basis.
+
+17. flex-flow -- control the flow of all the flex elements in the container. can be don as column flow and row flow.
+    eg: flex-flow: column;      // The main axis of flex flow is column wise.
+        flex 1 0 200px; 	//here the flex basis 200px controls the height of the column.
+
+18. justify content property is only applied to the main axis.
+                                      
+19. We can use "align-items" is used to align the flex-items in the cross axis flow.
+
+    eg: align-items: center;
+
+20. change the order of th elements in a flex box using order.
+    eg.  .one{order: 0;}  // if we change the 0 to 1, this one goes to last.
+	 .two{order: 0;}
+	 .three{order: 0;}
 
 
 ## CSS Animations
