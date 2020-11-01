@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/yelp.css">
+    <title>Yelp</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <!-- Top Header -->
+    <div class="top-head">
+        <div class="top-header">
+            <div class="top-header-left">
+                <li class="top-header-words">Write a review</li>
+                <li class="top-header-words-one">Events</li>
+                <li class="top-header-words-one">Talk</li>
+            </div>
+            <div class="top-header-right">
+                <li class="top-header-words">Log In</li>
+                <li class="sign">Sign Up</li>
+            </div>
+        </div>
+        <div class="top-header-yelp">
+            <a href="#"><img src="img/yelp.png" alt=""></a>
+        </div>
+        <div class="top-header-search">
+            <div class="top-header-searchbox">
+                <div class="top-header-searchbox-left">
+                    <label class="label">Find</label>
+                    <input type="text" class="search-input" placeholder="accountants, delivery, takeout...">
+                </div>
+                <div class="top-header-searchbox-center">
+                    <label class="label">Near</label>
+                    <input type="text" class="search-input" placeholder="San Francisco, CA">
+                </div>
+                <div class="top-header-searchbox-right">
+                    <i class="fas fa-search icon"></i>
+                </div>
+            </div>
+        </div>
+        <div class="top-header-sug">
+            <div class="top-header-sugg">
+                <p class="top-header-sugg-words"><i class="fas fa-calculator"></i> <span>Accountants</span></p>
+                <p class="top-header-sugg-words"><i class="fas fa-utensils"></i><span>Restaurants</span></p>
+                <p class="top-header-sugg-words"><i class="fas fa-home"></i><span>Home services</span></p>
+                <p class="top-header-sugg-words"><i class="fas fa-bicycle"></i><span>Delivery</span></p>
+            </div>
+        </div>
+        <div class="top-header-learnmore">
+            <div class="top-header-learnmoreone">
+                <h4 class="top-header-learnmoreone-head">Yelp is committed to supporting the Black community</h4>
+                <p class="top-header-learnmoreone-headone">As part of our ongoing efforts, the Yelp Foundation is
+                    donating $500,000
+                    to the Equal Justice Initiative and the NAACP Legal Defense Fund.
+                    We are also developing tools in support of Black-owned businesses.</p>
+            </div>
+        </div>
+        <div class="top-header-learnmores">
+            <div class="top-header-learnmoreones">
+                <a href="" class="learnmore">Learn More</a>
+            </div>
+        </div>
+    </div>
+    <!-- Main Section -->
+    <div class="main-section1-tophead">
+        <h2 class="main-section1-topheadword">Find the Best Businesses in Town</h2>
+        <div class="main-section1">
+            <div class="main-section1-img">
+                <img src="img/hotel.jpg" alt="hotel-image" class="img-main1">
+                <p class="main-section1-word">Hotel</p>
+            </div>
+            <div class="main-section1-img">
+                <img src="img/massage.jpg" alt="hotel-image" class="img-main1">
+                <p class="main-section1-word">Massage</p>
+            </div>
+            <div class="main-section1-img">
+                <img src="img/movers.jpg" alt="hotel-image" class="img-main1">
+                <p class="main-section1-word">Movers</p>
+            </div>
+            <div class="main-section1-img">
+                <img src="img/phonere.jpg" alt="hotel-image" class="img-main1">
+                <p class="main-section1-word">Phone Repair</p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="main-section2">
+        <h1 class="words">Yelp San Francisco</h1>
+        <div class="main-section2-words">
+            <p class="main-section2-words-text">New York</p>
+            <p class="main-section2-words-text">San Jose</p>
+            <p class="main-section2-words-text">Los Angeles</p>
+            <p class="main-section2-words-text">Chicago</p>
+            <p class="main-section2-words-text">Palo Alto</p>
+            <p class="main-section2-words-text">Oakland</p>
+            <p class="main-section2-words-text"><i class="fas fa-search"></i>More Cities</p>
+        </div>
+    </div>
+    <div class="main-section2">
+        <h1 class="words">Hot & New Businesses</h1>
+        <div class="container-inside1">
+            <div class="container-inside type1" id="img1">
+                <div class="container-inside-img" onclick="imageShuffle('img1')" id="new-business-image1">
+                    <!-- <img src="img/1.jpg" alt="" class="img"> -->
+                    <img id="new-business-image1" class="img image" onclick="imageShuffle('img1')" src="img/1.jpg"
+                        alt="">
+                </div>
+                <div class="container-inside-words">
+                    <div class="container-inside-wordsbelow">
+                        <h4 class="blue">Ratchetivi-Teas by Arena</h4>
+                        <div class="container-inside-wordsbelowflex">
+                            <div id="rating-img1">
+                                <!-- <img src="img/starrating.png" alt="" id="imgrat"> -->
+                            </div>
+                            <span id="reviews1"> </span>
+                        </div>
+                        <div class="container-inside-wordsbelow1">
+                            <p>Acai bowls,Juice Bars & Smoothies</p>
+                        </div>
+                        <div class="container-inside-wordsbelow1">
+                            <p>Inner Richmond</p>
+                        </div>
+                        <div id="finalw1">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-inside type2" id="img2">
+                <div class="container-inside-img" onclick="imageShuffle('img2')" id="new-business-image2">
+                    <!-- <img src="img/2.jpg" alt="" class="img"> -->
+                    <img id="new-business-image2" class="img" onclick="imageShuffle('img2')" src="img/2.jpg" alt=""
+                        height="180">
+                </div>
+                <div class="container-inside-words">
+                    <div class="container-inside-wordsbelow">
+                        <h4 class="blue">Lucinda’s Deli & More</h4>
+                        <div class="container-inside-wordsbelowflex">
+                            <div id="rating-img2">
+                                <!-- <img src="img/starrating.png" alt="" id="imgrat"> -->
+                            </div>
+                            <span id="reviews2"> </span>
+                        </div>
+                        <div class="container-inside-wordsbelow1">
+                            <p>Bubble Tea, Cocktail Bars, Cafes</p>
+                        </div>
+                        <div class="container-inside-wordsbelow1">
+                            <p>Mission</p>
+                        </div>
+                        <div id="finalw2">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-inside type3" id="img3">
+                <div class="container-inside-img" onclick="imageShuffle('img3')" id="new-business-image3">
+                    <!-- <img src="img/3.jpg" alt="" class="img" id="one"> -->
+                    <img id="new-business-image3" class="img" onclick="imageShuffle('img3')" src="img/3.jpg" alt=""
+                        height="180">
+                </div>
+                <div class="container-inside-words">
+                    <div class="container-inside-wordsbelow">
+                        <h4 class="blue">Peruvian Picnic</h4>
+                        <div class="container-inside-wordsbelowflex">
+                            <div id="rating-img3">
+                                <!-- <img src="img/starrating.png" alt="" id="imgrat"> -->
+                            </div>
+                            <div>
+                                <span id="reviews3"> </span>
+                            </div>
+                        </div>
+                        <div class="container-inside-wordsbelow1">
+                            <p>Peruvian, Sandwiches, Latin American</p>
+                        </div>
+                        <div class="container-inside-wordsbelow1">
+                            <p>SoMa</p>
+                        </div>
+                        <div id="finalw3">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-section4">
+        <div class="main-section4-flex">
+            <div class="main-section4-flex1">
+                <h2 class="main-section4-flex1-head">The Local Yelp</h2>
+                <div id="main-section4-flex1-box">
+                    <img src="img/donuts.png" alt="" id="imgfour">
+                    <h4 class="main-section4-flex1-box-word">Do donuts make you happy? 🍩</h4>
+                    <p class="main-section4-flex1-box-worddes">
+                        If happiness had a smell, it would probably smell like donuts. Bready, cakey, chocolate-coated,
+                        sprinkly... We could go on and on. Anyway, whether you’re in the mood for glazed, sprinkles,
+                        or...
+                    </p>
+                    <p class="main-section4-flex1-box-worddes2">The Local Yelp</p>
+                </div>
+                <a href="" id="main-section4-flex1-foot">See more</a>
+            </div>
+            <div class="main-section4-flex2">
+                <h2 class="main-section4-flex1-head">Official Yelp Event</h2>
+                <div id="main-section4-flex1-box">
+                    <img src="img/sweet.png" alt="" id="imgtwo">
+                    <h4 class="main-section4-flex1-box-word">Yelp's Sweet 16</h4>
+                    <p class="main-section4-flex1-box-worddes">Yelp's turning 16 this month, and we're celebrating what
+                        makes it so special--you! </p>
+                    <p class="main-section4-flex1-box-worddes2">Thu, Jul 30, 11:30 am - 10:00 pm</p>
+                </div>
+                <a href="" id="main-section4-flex1-foot">See all events</a>
+            </div>
+        </div>
+        <div class="main-section4-flex">
+            <div class="main-section4-flex1">
+                <h2 class="main-section4-flex1-head">Review of the Day</h2>
+                <div id="main-section4-flex1-box">
+                    <div class="main-section4-flex2one">
+                        <div class="main-section4-flex2-user">
+                            <img src="img/user.jpg" alt="" id="sec4img">
+                        </div>
+                        <div class="main-section4-flex2-userdetails">
+                            <h2 class="sec4-name">Jennifer L.</h2>
+                            <p class="sec4-name-det"> <i class="fas fa-male fmale"></i><i
+                                    class="fas fa-female female"></i>163 <i class="fas fa-star  boxstar"></i>440 </p>
+                            <p class="sec4-name-det2">Wrote a review for <a href="" id="one"> Flowercraft Garden Center
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <p class="main-section4-flex2-review">Review of the Day</p>
+                    <p><img src="img/5star.png" alt="" id="main-section4-flex2-review-img"><span
+                            class="main-section4-flex2-reviewword">5/24/2020</span></p>
+                    <p class="main-section4-flex2-reviewwordtwo">
+                        AMAZING, AMAZING, AMAZING. LOVE FLOWERCRAFT. Was on the hunt for some new leafy beauts to add to
+                        the collection! And boy, Flowercraft really came through! The selection of plants available is
+                        plentiful. The staff is extremely friendly. The parking can be a bit tough, but ppl come and go
+                        constantly, so there should be something available. Ppl seemed to be taking the social
+                        distancing here seriously and respectfully ..
+                    </p>
+                </div>
+                <a href="" id="main-section4-flex1-foot">Read previous reviews</a>
+            </div>
+            <div class="main-section4-flex2-work">
+                <h2 class="main-section4-flex1-head">Featured Collections</h2>
+                <div id="main-section4-flex1-box">
+                    <div class="main-section4-flex2-box">
+                        <div class="main-section4-flex2-box1">
+                            <img src="img/drink.jpg" alt="" id="fourimgfea">
+                            <i class="fas fa-bookmark inside"></i>
+                        </div>
+                        <div>
+                            <p class="main-section4-flex2-boxhead"> Black-Owned Businesses</p>
+                            <p class="main-section4-flex2-boxfoot">20 Places · By <span>Benjamin F.</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="main-section4-flex2-box">
+                        <div class="main-section4-flex2-box1">
+                            <img src="img/food.jpg" alt="" id="fourimgfea">
+                            <i class="fas fa-bookmark inside"></i>
+                        </div>
+                        <div>
+                            <p class="main-section4-flex2-boxhead"> Biking In SF</p>
+                            <p class="main-section4-flex2-boxfoot">11 Places · By <span>Stephanie Y.</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="main-section4-flex2-box">
+                        <div class="main-section4-flex2-box1">
+                            <img src="img/med.jpg" alt="" id="fourimgfea">
+                            <i class="fas fa-bookmark inside"></i>
+                        </div>
+                        <div>
+                            <p class="main-section4-flex2-boxhead"> The City (SF).</p>
+                            <p class="main-section4-flex2-boxfoot">15 Places · By<span> Tray B.</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <a href="" id="main-section4-flex1-foot">Browse more collections</a>
+            </div>
+        </div>
+    </div>
+    <div class="main-section5">
+        <h1 class="main-section5-head">Recent Activity</h1>
+        <div class="main-section5-flexrow">
+            <div class="main-section5-flexcolumn">
+                <div class="main-section5-flexcolumn1">
+                    <div class="main-section5-flexcolumn1-flex">
+                        <div class="sec5-user">
+                            <img src="img/user1.jpg" alt="">
+                        </div>
+                        <div class="sec5-word">
+                            <p class="sec5-worddes">Adrienne H.</p>
+                            <p class="sec5-worddesin">Wrote a review</p>
+                        </div>
+                    </div>
+                    <div class="sec5-img">
+                        <img src="img/user1frid.jpg" alt="" id="fivesecone">
+                    </div>
+                    <div class="sec5-img-down">
+                        <p class="sec5-img-downdes">Jupiter</p>
+                    </div>
+                    <div class="sec5-img-star">
+                        <img src="img/5star.png" alt="" id="secfi">
+                        <p class="secfiword">Jupiter is a new grocery delivery startup that automates groceries based on
+                            your usage over time. For a monthly membership, you get groceries once a week with no
+                            delivery fees and no minimum order amo...</p>
+                        <p class="secfiwordes">Continue reading</p>
+                    </div>
+                    <div class="sec5-img-review">
+                        <p><i class="far fa-lightbulb org"></i><span class="a">3</span></p>
+                        <p><i class="far fa-grin gre"></i><span class="a">5</span></p>
+                        <p><i class="far fa-grin-wink blue"></i><span class="a">4</span></p>
+                        <div>
+                            <i class="fas fa-ribbon rib"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-section5-flexcolumn1">
+                    <div class="main-section5-flexcolumn1-flex">
+                        <div class="sec5-user">
+                            <img src="img/user2.jpg" alt="">
+                        </div>
+                        <div class="sec5-word">
+                            <p class="sec5-worddes">Kirk B.</p>
+                            <p class="sec5-worddesin">Wrote a review</p>
+                        </div>
+                    </div>
+                    <div class="sec5-img">
+                        <img src="img/user1frid.jpg" alt="" id="fivesecone">
+                    </div>
+                    <div class="sec5-img-down">
+                        <p class="sec5-img-downdes">Jupiter</p>
+                    </div>
+                    <div class="sec5-img-star">
+                        <img src="img/5star.png" alt="" id="secfi">
+                        <p class="secfiword">GREAT time with Memo!!! dO IT! My son (13) and I really enjoyed the sunset
+                            tour of the bay and what a visceral experience it was to sail 24 knots through hurricane
+                            gulch and out past the bridge with M..</p>
+                        <p class="secfiwordes">Continue reading</p>
+                    </div>
+                    <div class="sec5-img-review">
+                        <p><i class="far fa-lightbulb org"></i><span class="a"></span></p>
+                        <p><i class="far fa-grin gre"></i><span class="a">1</span></p>
+                        <p><i class="far fa-grin-wink blue"></i><span class="a"></span></p>
+                        <div>
+                            <i class="fas fa-ribbon rib"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-section5-flexcolumn1">
+                    <div class="main-section5-flexcolumn1-flex">
+                        <div class="sec5-user">
+                            <img src="img/user2.jpg" alt="">
+                        </div>
+                        <div class="sec5-word">
+                            <p class="sec5-worddes">Kirk B.</p>
+                            <p class="sec5-worddesin">Added one photo</p>
+                        </div>
+                    </div>
+                    <div class="sec5-img-down">
+                        <p class="sec5-img-downdese">Sailing Memo Boat Charters</p>
+                    </div>
+                    <div class="sec5-imge">
+                        <img src="img/user2pic.jpg" alt="" id="fivese">
+                    </div>
+                    <div class="sec5-img-review">
+                        <p class="like"><i class="far fa-thumbs-up"></i> <span>1</span><span class="lik">Like</span></p>
+                    </div>
+                </div>
+                <div class="main-section5-flexcolumn1">
+                    <div class="main-section5-flexcolumn1-flex">
+                        <div class="sec5-user">
+                            <img src="img/user2.jpg" alt="">
+                        </div>
+                        <div class="sec5-word">
+                            <p class="sec5-worddes"> Shivani Y.</p>
+                            <p class="sec5-worddesin">Wrote a review</p>
+                        </div>
+                    </div>
+                    <div class="sec5-img">
+                        <img src="img/user1frid.jpg" alt="" id="fivesecone">
+                    </div>
+                    <div class="sec5-img-down">
+                        <p class="sec5-img-downdes">Boudin Bakery & Cafe</p>
+                    </div>
+                    <div class="sec5-img-star">
+                        <img src="img/4star.png" alt="" id="secfi">
+                        <p class="secfiworde">Their breads are super awesome. They only have 1 vegan option but it is
+                            good. The sourdough bread and tomato soup combo is a full meal and delicious. I hope they
+                            include more vegan soup options.</p>
+                    </div>
+                    <div class="sec5-img-review">
+                        <p><i class="far fa-lightbulb org"></i><span class="a"></span></p>
+                        <p><i class="far fa-grin gre"></i><span class="a"></span></p>
+                        <p><i class="far fa-grin-wink blue"></i><span class="a"></span></p>
+                        <div>
+                            <i class="fas fa-ribbon rib"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="main-section5-flexcolumn">
+                <div class="main-section5-flexcolumn1">
+                    <div class="main-section5-flexcolumn1-flex">
+                        <div class="sec5-user">
+                            <img src="img/user6.jpg" alt="">
+                        </div>
+                        <div class="sec5-word">
+                            <p class="sec5-worddes">Sameer J.</p>
+                            <p class="sec5-worddesin">Wrote a review</p>
+                        </div>
+                    </div>
+                    <div class="sec5-img">
+                        <img src="img/user6pic.jpg" alt="" id="fivesecone">
+                    </div>
+                    <div class="sec5-img-down">
+                        <p class="sec5-img-downdes">Gioia Pizzeria</p>
+                    </div>
+                    <div class="sec5-img-stare">
+                        <img src="img/5star.png" alt="" id="secfi">
+                        <p class="secfiword">Delicious slices (NY style, but gourmet). A little pricey but worthwhile.
+                            Note that at least on a Friday evening, it was pretty crowded on the sidewalk waiting to
+                            order a slice (and you kind of had to...<span class="secfiwordesee">Continue reading</span>
+                        </p>
+                    </div>
+                    <div class="sec5-img-review">
+                        <p><i class="far fa-lightbulb org"></i><span class="a"></span></p>
+                        <p><i class="far fa-grin gre"></i><span class="a"></span></p>
+                        <p><i class="far fa-grin-wink blue"></i><span class="a"></span></p>
+                        <div>
+                            <i class="fas fa-ribbon rib"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-section5-flexcolumn1">
+                    <div class="main-section5-flexcolumn1-flex">
+                        <div class="sec5-user">
+                            <img src="img/user7pi.jpg" alt="">
+                        </div>
+                        <div class="sec5-word">
+                            <p class="sec5-worddes">Fleur B.</p>
+                            <p class="sec5-worddesin">Wrote a review</p>
+                        </div>
+                    </div>
+                    <div class="sec5-img">
+                        <img src="img/user7.jpg" alt="" id="fivesecone">
+                    </div>
+                    <div class="sec5-img-down">
+                        <p class="sec5-img-downdes">Iron and Mettle</p>
+                    </div>
+                    <div class="sec5-img-star">
+                        <img src="img/5star.png" alt="" id="secfi">
+                        <p class="secfiword">Danielle is one of a kind. Absolutely amazing, I have worked out with her
+                            before she opened Iron and Mettle and just started at Iron and Mettle pre covid. she has
+                            created a great space and is an amazi...</p>
+                        <p class="secfiwordes">Continue reading</p>
+                    </div>
+                    <div class="sec5-img-review">
+                        <p><i class="far fa-lightbulb org"></i><span class="a"></span></p>
+                        <p><i class="far fa-grin gre"></i><span class="a"></span></p>
+                        <p><i class="far fa-grin-wink blue"></i><span class="a"></span></p>
+                        <div>
+                            <i class="fas fa-ribbon rib"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-section5-flexcolumn1">
+                    <div class="main-section5-flexcolumn1-flex">
+                        <div class="sec5-user">
+                            <img src="img/user8.jpg" alt="">
+                        </div>
+                        <div class="sec5-word">
+                            <p class="sec5-worddes">Eric C.</p>
+                            <p class="sec5-worddesin">Wrote a review</p>
+                        </div>
+                    </div>
+                    <div class="sec5-img">
+                        <img src="img/user8pic.jpg" alt="" id="fivesecone">
+                    </div>
+                    <div class="sec5-img-down">
+                        <p class="sec5-img-downdes">QualiTea</p>
+                    </div>
+                    <div class="sec5-img-star">
+                        <img src="img/5star.png" alt="" id="secfi">
+                        <p class="secfiword">Danielle is one of a kind. Absolutely amazing, I have worked out with her
+                            before she opened Iron and Mettle and just started at Iron and Mettle pre covid. she has
+                            created a great space and is an amazi...</p>
+                        <p class="secfiwordes">Continue reading</p>
+                    </div>
+                    <div class="sec5-img-review">
+                        <p><i class="far fa-lightbulb org"></i><span class="a"></span></p>
+                        <p><i class="far fa-grin gre"></i><span class="a"></span></p>
+                        <p><i class="far fa-grin-wink blue"></i><span class="a"></span></p>
+                        <div>
+                            <i class="fas fa-ribbon rib"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-section5-flexcolumn1">
+                    <div class="main-section5-flexcolumn1-flex">
+                        <div class="sec5-user">
+                            <img src="img/user9.jpg" alt="">
+                        </div>
+                        <div class="sec5-word">
+                            <p class="sec5-worddes"> Becca M.</p>
+                            <p class="sec5-worddesin">Wrote a review</p>
+                        </div>
+                    </div>
+                    <div class="sec5-img">
+                        <img src="img/user9pic.jpg" alt="" id="fivesecone">
+                    </div>
+                    <div class="sec5-img-down">
+                        <p class="sec5-img-downdes">Euphorium</p>
+                    </div>
+                    <div class="sec5-img-star">
+                        <img src="img/5star.png" alt="" id="secfi">
+                        <p class="secfiworde">Great customer service, wide selection of products and quick delivery.
+                            Thanks TT!</p>
+                    </div>
+                    <div class="sec5-img-review">
+                        <p><i class="far fa-lightbulb org"></i><span class="a"></span></p>
+                        <p><i class="far fa-grin gre"></i><span class="a"></span></p>
+                        <p><i class="far fa-grin-wink blue"></i><span class="a"></span></p>
+                        <div>
+                            <i class="fas fa-ribbon rib"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="main-section5-flexcolumn">
+                <div class="main-section5-flexcolumn1">
+                    <div class="main-section5-flexcolumn1-flex">
+                        <div class="sec5-user">
+                            <img src="img/user10.jpg" alt="">
+                        </div>
+                        <div class="sec5-word">
+                            <p class="sec5-worddes">Jannie T.</p>
+                            <p class="sec5-worddesin">Wrote a review</p>
+                        </div>
+                    </div>
+                    <div class="sec5-img">
+                        <img src="img/user10pic.jpg" alt="" id="fivesecone">
+                    </div>
+                    <div class="sec5-img-down">
+                        <p class="sec5-img-downdes">Banana Island</p>
+                    </div>
+                    <div class="sec5-img-stare">
+                        <img src="img/4star.png" alt="" id="secfi">
+                        <p class="secfiword">Best roti and curry dipping sauce hands down. I can literally probably
+                            almost dip anything with its amazing deliciousness. I love how their roti is baked fresh all
+                            the time. The roti chefs are still t...<span class="secfiwordesee">Continue reading</span>
+                        </p>
+                    </div>
+                    <div class="sec5-img-review">
+                        <p><i class="far fa-lightbulb org"></i><span class="a"></span></p>
+                        <p><i class="far fa-grin gre"></i><span class="a"></span></p>
+                        <p><i class="far fa-grin-wink blue"></i><span class="a"></span></p>
+                        <div>
+                            <i class="fas fa-ribbon rib"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-section5-flexcolumn1">
+                    <div class="main-section5-flexcolumn1-flex">
+                        <div class="sec5-user">
+                            <img src="img/user11pic.jpg" alt="">
+                        </div>
+                        <div class="sec5-word">
+                            <p class="sec5-worddes"> David J.</p>
+                            <p class="sec5-worddesin">Wrote a review</p>
+                        </div>
+                    </div>
+                    <div class="sec5-img">
+                        <img src="img/user11.jpg" alt="" id="fivesecone">
+                    </div>
+                    <div class="sec5-img-down">
+                        <p class="sec5-img-downdes">Bun Nha Trang</p>
+                    </div>
+                    <div class="sec5-img-staree">
+                        <img src="img/5star.png" alt="" id="secfi">
+                        <p class="secfiword">Just tried the Bun Bo Hue today, the broth taste great very flavorful, meat
+                            portion is good, owner is very friendly, definitely will return to try other items soon.</p>
+                    </div>
+                    <div class="sec5-img-review">
+                        <p><i class="far fa-lightbulb org"></i><span class="a"></span></p>
+                        <p><i class="far fa-grin gre"></i><span class="a">1</span></p>
+                        <p><i class="far fa-grin-wink blue"></i><span class="a"></span></p>
+                        <div>
+                            <i class="fas fa-ribbon rib"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-section5-flexcolumn1">
+                    <div class="main-section5-flexcolumn1-flex">
+                        <div class="sec5-user">
+                            <img src="img/user12.jpg" alt="">
+                        </div>
+                        <div class="sec5-word">
+                            <p class="sec5-worddes">Katherina C.</p>
+                            <p class="sec5-worddesin">Added 1 photo</p>
+                        </div>
+                    </div>
+
+                    <div class="sec5-img-down">
+                        <p class="sec5-img-downdese">Bashamichi Sushi</p>
+                    </div>
+                    <div class="sec5-imge">
+                        <img src="img/user12pic.jpg" alt="" id="fivese">
+                    </div>
+                    <div class="sec5-img-review">
+                        <p class="like"><i class="far fa-thumbs-up"></i> <span>1</span><span class="lik">Like</span></p>
+                    </div>
+                </div>
+                <div class="main-section5-flexcolumn1">
+                    <div class="main-section5-flexcolumn1-flex">
+                        <div class="sec5-user">
+                            <img src="img/user12.jpg" alt="">
+                        </div>
+                        <div class="sec5-word">
+                            <p class="sec5-worddes">Tu-Anh N.</p>
+                            <p class="sec5-worddesin">Added 3 photo</p>
+                        </div>
+                    </div>
+                    <div class="sec5-img-downpoint">
+                        <div class="sec5-img-down">
+                            <p class="sec5-img-downdese">Encinal Nursery</p>
+                        </div>
+                        <div class="sec5-imge">
+                            <img src="img/user12pic.jpg" alt="" id="fivese">
+                        </div>
+                        <div class="sec5-img-review">
+                            <p class="like"><i class="far fa-thumbs-up"></i> <span>1</span><span class="lik">Like</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="sec5-img-downpointe">
+                        <div class="sec5-img-img">
+                            <div class="sec5-imgee">
+                                <img src="img/user12pic.jpg" alt="" id="fivesee">
+                            </div>
+                            <div class="sec5-img-review">
+                                <p class="like"><i class="far fa-thumbs-up"></i> <span>1</span><span
+                                        class="lik">Like</span></p>
+                            </div>
+                        </div>
+                        <div class="sec5-img-img">
+                            <div class="sec5-imgee">
+                                <img src="img/user12pic.jpg" alt="" id="fivesee">
+                            </div>
+                            <div class="sec5-img-review">
+                                <p class="like"><i class="far fa-thumbs-up"></i> <span>1</span><span
+                                        class="lik">Like</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sec5-foot">
+            <a href="" id="sec5-foot"> <i class="fas fa-chevron-down"></i>Show more activity in San Francisco</a>
+        </div>
+    </div>
+
+    <div class="main-section7">
+        <h1 class="main-section7-word">Browse Businesses by Category</h1>
+        <div class="main-section7-flex">
+            <div class="main-section7-fleximg">
+                <img src="img/restarunt.png" alt="">
+                <p class="main-section7-fleximgword">Restaurants</p>
+            </div>
+            <div class="main-section7-fleximg">
+                <img src="img/shopping.png" alt="">
+                <p class="main-section7-fleximgword">Shopping</p>
+            </div>
+            <div class="main-section7-fleximg">
+                <img src="img/nightlife.png" alt="">
+                <p class="main-section7-fleximgword">nightlife</p>
+            </div>
+            <div class="main-section7-fleximg">
+                <img src="img/activitelife.png" alt="">
+                <p class="main-section7-fleximgword">Active Life</p>
+            </div>
+        </div>
+        <div class="main-section7-flex">
+            <div class="main-section7-fleximg">
+                <img src="img/mirror.png" alt="">
+                <p class="main-section7-fleximgword">Beauty & Spas</p>
+            </div>
+            <div class="main-section7-fleximg">
+                <img src="img/automotive.png" alt="">
+                <p class="main-section7-fleximgword">Automotive</p>
+            </div>
+            <div class="main-section7-fleximg">
+                <img src="img/spanner.png" alt="">
+                <p class="main-section7-fleximgword">Home Services</p>
+            </div>
+            <div class="main-section7-fleximg">
+                <img src="img/more.png" alt="">
+                <p class="main-section7-fleximgword">More Categories</p>
+            </div>
+        </div>
+    </div>
+    <div class="main-section8">
+        <h1>Yelp Mobile Apps</h1>
+        <div class="main-section8-div">
+            <div class="main-section8-div-img">
+                <p>iPhone, iPad and Watch</p>
+                <img src="img/mobiles.png" alt="" class="img-8">
+            </div>
+            <div class="main-section8-div-img">
+                <p>Mobiles</p>
+                <img src="img/mobiletab.png" alt="" class="img-8">
+            </div>
+        </div>
+    </div>
+    <!-- footer Section -->
+    <div class="footer">
+        <div class="footer-flex">
+            <div class="footer-flex-section">
+                <h4 class="footer-head">About</h4>
+                <p>About Yelp</p>
+                <p>Careers</p>
+                <p>Press</p>
+                <p>InvestorRelations</p>
+                <p>Terms of service</p>
+                <p>Privacy Policy</p>
+                <p>Ad choices</p>
+            </div>
+            <div class="footer-flex-section">
+                <h4 class="footer-head">Discover</h4>
+                <p>Yelp Project cost Guides</p>
+                <p>Collections</p>
+                <p>Talk</p>
+                <p>Events</p>
+                <p>The Local Yelp</p>
+                <p>Yelp Blog</p>
+                <p>Support</p>
+                <p>Yelp Mobile</p>
+                <p>Developers</p>
+                <p>RSS</p>
+            </div>
+            <div class="footer-flex-section">
+                <h4 class="footer-head">Yelp for Business Owners</h4>
+                <p>Claim your Business Page</p>
+                <p>Advertise on Yelp</p>
+                <p>Yelp Reservations</p>
+                <p>Yelp WiFi</p>
+                <p>Yelp Waitlist</p>
+                <p>Business Success Stories</p>
+                <p>Business Support</p>
+                <p>Yelp Blog for Business Owners</p>
+            </div>
+            <div class="footer-flex-section">
+                <h4 class="footer-head">Languages</h4>
+                <p>English</p>
+                <br>
+                <h4 class="footer-head">Countries</h4>
+                <p>United States</p>
+            </div>
+        </div>
+
+        <br>
+        <div class="footer-img">
+            <img src="img/footer.png" alt="">
+        </div>
+    </div>
+
+    <!-- LOW RES -->
+
+    <div class="lowres">
+        <!-- Lowres Header -->
+        <div class="lowres-header">
+            <div class="lowres-header-flex">
+                <p class="lowres-header-flex-1"><i class="fas fa-mobile-alt fase"></i>Open in App</p>
+            </div>
+            <div class="lowres-header-flex">
+                <img src="img/yelpred.png" alt="">
+            </div>
+            <div class="lowres-header-flex-2">
+                <i class="fas fa-search fase"></i>
+                <i class="fas fa-grip-lines fase"></i>
+            </div>
+        </div>
+    </div>
+    <!-- Mainsection -->
+    <div class="lowmain">
+        <div class="lowmain-section1">
+            <div class="lowmain-section1-flex">
+                <div class="lowmain-section1-flex1">
+                    <div>
+                        <img src="img/restarunt.png" alt="" id="low-oneimg">
+                        <p class="qqw">Restaurants</p>
+                    </div>
+                    <div>
+                        <img src="img/automotive.png" alt="" id="low-oneimg">
+                        <p class="qqw">Delivery</p>
+                    </div>
+                    <div>
+                        <img src="img/shopping.png" alt="" id="low-oneimg">
+                        <p class="qqw">Takeout</p>
+                    </div>
+                    <div>
+                        <img src="img/accountants.png" alt="" id="low-oneimg">
+                        <p class="qqw">Accountants</p>
+                    </div>
+                </div>
+                <div class="lowmain-section1-flex1">
+                    <div>
+                        <img src="img/plumbers.png" alt="" id="low-oneimg">
+                        <p class="qqw">Plumbers</p>
+                    </div>
+                    <div>
+                        <img src="img/autorepair.png" alt="" id="low-oneimg">
+                        <p class="qqw">Auto Repair</p>
+                    </div>
+                    <div>
+                        <img src="img/moverslow.png" alt="" id="low-oneimg">
+                        <p class="qqw">Takeout</p>
+                    </div>
+                    <div>
+                        <img src="img/more.png" alt="" id="low-oneimg">
+                        <p class="qqw">Accountants</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="lowmain-section2">
+            <h1 class="lowmain-section2-head">Services & Professionals</h1>
+            <div class="lowmain-section2-flex">
+                <div>
+                    <img src="img/automotivetwo.png" alt="">
+                    <p class="imge">Automotive</p>
+                </div>
+                <div>
+                    <img src="img/apartments.png" alt="">
+                    <p class="imge">Apartments</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="lowmain-section3">
+            <button class="lowmain-section3-head">Open in the Yelp App</button>
+
+            <h1 class="lowmain-section3-headword">Hot New Businesses Nearby</h1>
+        </div>
+
+        <div class="lowmain-section4">
+            <div class="lowmain-section4-flex">
+                <div class="lowmain-section4-flex1">
+                    <img src="img/low1.jpg" alt="" id="imc">
+                </div>
+                <div class="lowmain-section4-flex2">
+                    <p class="words-2">Mr.Green Bubble</p>
+                    <p class="words-3"><img src="img/3star.png" alt="" id="sta"><span class="fi">6 reviews</span></p>
+                    <p class="words-4">Bubble Tea, Coffee & Tea, Juice Bars & Smoothies</p>
+                </div>
+            </div>
+            <div class="lowmain-section4-flex">
+                <div class="lowmain-section4-flex1">
+                    <img src="img/low2.jpg" alt="" id="imc">
+                </div>
+                <div class="lowmain-section4-flex2">
+                    <p class="words-2">Tea Hut</p>
+                    <p class="words-3"><img src="img/3star.png" alt="" id="sta"><span class="fi">19 reviews</span></p>
+                    <p class="words-4">Bubble Tea, Coffee & Tea, Juice Bars & Smoothies</p>
+                </div>
+            </div>
+            <div class="lowmain-section4-flex">
+                <div class="lowmain-section4-flex1">
+                    <img src="img/low3.jpg" alt="" id="imc">
+                </div>
+                <div class="lowmain-section4-flex2">
+                    <p class="words-2">1011 Sip Tea</p>
+                    <p class="words-3"><img src="img/4star.png" alt="" id="sta"><span class="fi">21 reviews</span></p>
+                    <p class="words-4">Bubble Tea, Coffee & Tea</p>
+                </div>
+            </div>
+        </div>
+        <div class="lowmain-section5">
+            <button class="lowmain-section5-but">View More New Businesses</button>
+        </div>
+        <div class="lowmain-footer">
+            <div class="lowmain-footer1">
+                <p>Languages</p>
+                <p>Countries</p>
+            </div>
+            <div class="lowmain-footer2">
+                <p>English <i class="fas fa-caret-down"></i></p>
+                <p class="us">United States<i class="fas fa-caret-down"></i></p>
+            </div>
+            <div class="lowmain-footer3">
+                <p>About</p>
+                <p>Blog</p>
+                <p>Support</p>
+                <p>Terms</p>
+                <p>Privacy Policy</p>
+            </div>
+            <div class="lowmain-footer3">
+                <p>Add a Business on Yelp</p>
+            </div>
+            <div class="lowmain-footer4">
+                <!-- <p>Copyright © 2004–2020 Yelp Inc. Yelp, Yelp logo, Yelp burst and related marks are registered trademarks of Yelp.</p> -->
+                <img src="img/copyryt.png" alt="" id="footf">
+            </div>
+        </div>
+
+        <script src="script.js">    </script>
+</body>
+</html>
